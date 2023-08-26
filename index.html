@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Kufam:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- JavaScript -->
+    <script defer src="assets/js/app.js"></script>
+    
+    <title>LogMine</title>
+</head>
+<body>
+
+    <div class="container">
+        <header class="header">
+            <div class="logo-menu_bars">
+                <div class="logo">
+                    <img src="assets/image/logo-with-text.svg" alt="logo">
+                </div>
+                <div class="menu_bars" data-menu="menu">
+                    <i class="fa-solid fa-bars" style="color: white;"></i>
+                </div>
+            </div>
+            <nav class="navbar" data-menu="navbar">
+                <a href="#">ENTRAR</a>
+                <a href="#">FORUM</a>
+                <a href="#">SOBRE</a>
+                <a href="#">MOJANG</a>
+                <a href="#">PERGUNTAS</a>
+            </nav>
+        
+        </header>
+        <main class="main">
+            <div class="login">
+                <div class="logo">
+                    <img src="assets/image/logo.svg" alt="Logo">
+                </div>
+                <form class="form">
+                    <label for="email">
+                        <p class="title">E-mail</p>
+                        <input type="email" id="email">
+                    </label>
+                    <label for="password">
+                        <p class="title">Senha</p>
+                        <input type="password" id="password">
+                    </label>
+                    <label class="checkbox" for="remember">
+                        <input type="checkbox" name="remember" id="remember">
+                        <span class="pseudoCheck"></span>
+                        <span>Lembrar minha senha</span>
+                    </label>
+                    <input type="submit" value="Entrar na conta">
+                    <a href="#">Esqueceu a senha?</a>
+        
+                </form>
+        
+            </div>
+        
+        </main>
+        <footer class="footer">
+        
+            <div class="sections">
+        
+                <section class="offline">
+                    <img src="assets/image/power.svg" alt="">
+                    <p>Jogue também offline</p>
+                </section>
+                <section class="players">
+                    <img src="assets/image/user.svg" alt="">
+                    <p>67 jogadores</p>
+                </section>
+                <section class="remote">
+                    <img src="assets/image/game-controller.svg" alt="">
+                    <p>Compatível com uso remoto</p>
+                </section>
+                <section class="vibration">
+                    <img src="assets/image/vibrate.svg" alt="">
+                    <p>Vibração no controle</p>
+                </section>
+                <section class="smaller">
+                    <img src="assets/image/kid.svg" alt="">
+                    <p>Permitido para menores</p>
+                </section>
+            </div>
+        </footer>
+    </div>
+    
+</body>
+</html>
